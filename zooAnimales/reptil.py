@@ -5,7 +5,7 @@ class Reptil(Animal):
     iguanas = 0
     serpientes = 0
 
-    def __init__(self, nombre, edad, habitat, genero, colorEscamas, largoCola)->None:
+    def __init__(self, nombre, edad, habitat, genero, colorEscamas, largoCola) -> None:
         super().__init__(nombre, edad, habitat, genero)
         self._colorEscamas = colorEscamas
         self._largoCola = colorEscamas
@@ -23,7 +23,7 @@ class Reptil(Animal):
     @staticmethod
     def crearSerpiente(nombre, edad, genero):
         Reptil.serpientes += 1
-        return Reptil( nombre, edad, "jungla", genero, "blanco", 1)
+        return Reptil(nombre, edad, "jungla", genero, "blanco", 1)
 
     def getColorEscamas(self):
         return self._colorEscamas
