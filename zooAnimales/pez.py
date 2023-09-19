@@ -1,4 +1,4 @@
-from . import Animal
+from .animal import Animal
 
 class Pez(Animal):
 
