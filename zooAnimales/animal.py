@@ -39,7 +39,7 @@ class Animal:
     def toString(self):
         return str(self)
 
-    def getnombre(self):
+    def getNombre(self):
         return self._nombre
 
     def setNombre(self, nombre):
