@@ -21,7 +21,7 @@ class Pez(Animal):
         return Pez(nombre, edad, "oceano", genero, "rojo", 6)
 
     @staticmethod
-    def crearBacalaos(nombre, edad, genero):
+    def crearBacalao(nombre, edad, genero):
         Pez.bacalaos += 1
         return Pez(nombre, edad, "oceano", genero, "gris", 6)
 
