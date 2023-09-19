@@ -16,12 +16,12 @@ class Ave(Animal):
         return len(cls._listado)
 
     @staticmethod
-    def crearHalcones(nombre, edad, genero):
+    def crearHalcon(nombre, edad, genero):
         Ave.halcones += 1
         return Ave(nombre, edad, "montanas", genero, "cafe glorioso")
 
     @staticmethod
-    def crearAguilas(nombre, edad, genero):
+    def crearAguila(nombre, edad, genero):
         Ave.aguilas += 1
         return Ave( nombre, edad, "montanas", genero, "blanco y amarillo")
 
